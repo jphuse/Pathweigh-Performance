@@ -1,3 +1,5 @@
 .header {
 	background-image: url("\images\tempimages\olympic-1.jpg");
+	width: fixed;
+	height: fixed;
 }
