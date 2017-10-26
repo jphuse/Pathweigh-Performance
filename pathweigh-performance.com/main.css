@@ -1,6 +1,6 @@
 .header {
 	background-image: url("https://i.ytimg.com/vi/361zo0DS8ek/maxresdefault.jpg");
-	width: 1280px;
-	height: 720px;
+	width: 100%;
+	height: auto;
 	border: 1px solid #E5E5E5;
 }
