@@ -35,3 +35,31 @@ nav div ul li a:hover {
 	margin-left: -13px;
 	transition: color 0.2s;
 }
+.leftpane {
+    width: 33%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+.leftpane h1 {
+	text-align: center;
+}
+.middlepane {
+    width: 33%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+.middlepane h1 {
+	text-align: center;
+}
+.rightpane {
+  width: 33%;
+  height: 100%;
+  position: relative;
+  float: right;
+  border-collapse: collapse;
+}
+.rightpane h1 {
+	text-align: center;
+}
