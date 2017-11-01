@@ -23,7 +23,7 @@
 		if (!$_POST['message']) {
 			$errMessage = 'Please enter your message.';
 		}
-		if (!$errName && !$errEmail && !$erSubject && !$errMessage) {
+		if (!$errName && !$errEmail && !$errSubject && !$errMessage) {
 			if (mail ($to, $emailsubject, $body, $from)) {
 				$result='<div class="alert alert-success">Thank You! I will be in touch</div>';
 			} else {
